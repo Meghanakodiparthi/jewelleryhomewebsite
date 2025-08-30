@@ -1,0 +1,29 @@
+.new
+{
+    background-color:rgb(255, 253, 242);
+     height:200px;
+     width:100%;
+     margin-top:50px;
+     display:flex;
+     flex-direction: row;
+}
+.column1
+{
+    display:flex;
+     background-color: rgb(255, 252, 232);
+    flex-direction: column;
+    text-align: center;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+.column2
+{
+    flex:1;
+    background-color: rgb(255, 249, 217);
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
