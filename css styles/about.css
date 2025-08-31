@@ -1,22 +1,32 @@
 .grid
 {
     background-color:rgb(255, 253, 242) ;
-    display:grid;
+    display:flex;
     height:550px;
      width:100%;
-   grid-template-columns: 1fr 1fr;
+     position:relative;
+     flex-direction: row;
 }
 .grid1
 {
     display:flex;
-    margin-left:10px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:53%;
     flex-direction: column;
+    border: 2px solid red;
+    position:absolute;
 }
 .grid2
 {
     display:flex;
+    position:absolute;
     flex-direction: column;
-    margin-left:10px;
+    top:0;
+    bottom:0;
+    left:48%;
+    right:0;
 }
 .about{
     font-size:160px;
@@ -24,14 +34,19 @@
     display:flex;
     margin-bottom:0px;
     flex:1;
-    margin-bottom:0px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
     color:antiquewhite;
     text-shadow:1px 1px 1px rgba(0, 0, 0, 0.619);
 }
 .image2
 {
     width:550px;
+    display:flex;
     height:280px;
     border-top-left-radius: 80px;
+    position:absolute;
     display:flex;
 }
