@@ -15,7 +15,6 @@
     left:0;
     right:53%;
     flex-direction: column;
-    border: 2px solid red;
     position:absolute;
 }
 .grid2
